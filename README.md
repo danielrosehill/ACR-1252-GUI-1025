@@ -1,5 +1,7 @@
 # ACR1252 NFC GUI - Reader/Writer
 
+![alt text](screenshots/image.png)
+
 A modern PyQt5-based GUI application for reading and writing NFC tags using the ACS ACR1252U USB NFC Reader on Linux systems.
 
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
