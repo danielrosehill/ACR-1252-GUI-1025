@@ -10,13 +10,13 @@ A modern PyQt5-based GUI application for reading and writing NFC tags using the 
 
 ## Features
 
-- **Modern PyQt5 GUI**: Beautiful, responsive interface with material design styling
+- **PyQt5 GUI**: Responsive interface with material design styling
 - **Read Mode**: Continuously scan NFC tags and automatically open URLs in browser
 - **Write Mode**: Write URLs to NFC tags with optional permanent locking
 - **Batch Writing**: Write the same URL to multiple tags sequentially
 - **Safety Features**: Optional overwrite protection to prevent accidental data loss
-- **Clipboard Integration**: Easy paste from clipboard and copy read URLs
-- **Real-time Logging**: Activity log with timestamps for all operations
+- **Clipboard Integration**: Paste from clipboard and copy read URLs
+- **Logging**: Activity log with timestamps for all operations
 
 ## Hardware Requirements
 
@@ -145,4 +145,30 @@ Core NFC functionality based on [VladoPortos's ACR1252 implementation](https://g
 
 ## License
 
-This project is open source and available for public use.
+MIT License
+
+Copyright (c) 2024 Daniel Rosehill
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+## Attribution
+
+**Author**: Daniel Rosehill
+**Website**: [danielrosehill.com](https://danielrosehill.com)
+**Contact**: github@danielrosehill.com
